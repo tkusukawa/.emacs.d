@@ -13,3 +13,8 @@
                (define-key shell-mode-map (kbd "C-n") 'comint-next-matching-input-from-input)
                )))
 (setq-default tab-width 4 indent-tabs-mode nil)
+;;; カーソルの位置が何文字目かを表示する
+(column-number-mode t)
+
+;;; カーソルの位置が何行目かを表示する
+(line-number-mode t)
