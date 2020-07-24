@@ -1,5 +1,6 @@
 (define-key global-map "\C-z" 'undo)
 (define-key global-map "\C-q" 'kill-ring-save)
+(define-key global-map "\C-h" `delete-backward-char)
 ;(define-key global-map "\C-i" 'isearch-forward)
 ;(define-key global-map "\C-s" 'save-buffer)
 (setq make-backup-files nil)
@@ -18,3 +19,4 @@
 
 ;;; カーソルの位置が何行目かを表示する
 (line-number-mode t)
+(global-linum-mode t)
