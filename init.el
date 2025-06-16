@@ -19,4 +19,4 @@
 
 ;;; カーソルの位置が何行目かを表示する
 (line-number-mode t)
-(global-linum-mode t)
+;(global-linum-mode t)
